@@ -9,7 +9,7 @@ import Image from 'next/image'
             alt='About Image'
             width={599}
             height={1045}
-            className='object-cover object-center bg-cover opacity-70'
+            className='object-cover object-center opacity-70 bg-cover'
           />
         </div>
         <main className='flex flex-col py-14 pb-32 overflow-hidden lg:py-28 xl:flex-row z-10'>

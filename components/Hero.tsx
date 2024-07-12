@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         <div className="absolute w-[759px] h-[294px] gap-2 -translate-x-0 -translate-y-[50%] top-[315px] left-[4%] lg:left-[110px] md:left-[6%]">
           <h1 className='text-white bold-20 lg:bold-30'>Discover Your Next Adventure</h1>
-          <h1 className="xl:max-w-[757px] xl:max-h-[757px] text-white bold-52 lg:bold-75">
+          <h1 className="xl:max-w-[737px] text-white bold-52 lg:bold-75">
             Find your <span className="text-blue-500 font-black font-serif">dream</span> job abroad
           </h1>
           <div className="max-w-5xl lg:mr-auto pr-5 md:pr-10 xl:pr-0 w-full">

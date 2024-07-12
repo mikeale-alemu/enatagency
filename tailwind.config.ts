@@ -18,15 +18,6 @@ const config = {
       },
     },
     extend: {
-      animation: {
-        "loop-scroll": "loop-scroll 50s liner infinite",
-      },
-      keyframes: {
-        "loop-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
-        }
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

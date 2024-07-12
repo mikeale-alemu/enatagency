@@ -72,6 +72,29 @@ export const NAV_LINKS = [
       description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
     },
   ];
+
+  export const Achievements = [
+    {
+      icon: '/peop.svg',
+      numbers: 1200,
+      title: "Happy Employees",
+    },
+    {
+      icon: '/build.svg',
+      numbers: 1200,
+      title: "Years of Experie",
+    },
+    {
+      icon: '/happ.svg',
+      numbers: 1200,
+      title: "Satisfied Employers",
+    },
+    {
+      icon: '/worl.svg',
+      numbers: 1200,
+      title: "Countries",
+    },
+  ]
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [
