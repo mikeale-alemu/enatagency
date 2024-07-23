@@ -1,20 +1,23 @@
+"use client";
+
 import Image from 'next/image'
-import React from 'react'
+import { motion } from 'framer-motion'
+import React, { createContext } from 'react';
 
 const About = () => {
   return (
-    <section className='relative'>
-      <div className="absolute left-[905px] -top-16 w-full">
+    <section className='relative 2xl:max-container' id='about'>
+      <div className="absolute left-[715px] -top-16 w-full">
         <Image
           src='/9267.png'
           alt='About Image'
           width={599}
           height={1045}
-          className='object-cover object-center bg-cover opacity-70'
+          className='object-cover object-center bg-cover opacity-80'
         />
       </div>
-      <main className='flex flex-col py-10 pb-32 gap-2 overflow-hidden lg:py-20 xl:flex-row z-10'>
-        <div className="relative z-20 flex flex-col w-[611px]">
+      <main className='relative flex flex-col py-10 pb-32 gap-10 xl:gap-2  overflow-hidden lg:py-20 xl:flex-row z-10'>
+        <div className="relative z-20 flex flex-col items-end w-[611px]">
           <Image
             src='/Frame-1.png'
             alt='about image'
@@ -23,21 +26,34 @@ const About = () => {
             className=''
           />
         </div>
-        <div className="relative flex flex-col gap-7 items-start w-[598px] h-[359] -translate-x-0 left-[4%] lg:left-[110px] md:left-[6%]">
+        <motion.div 
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ delay:0.2, x: { type: 'spring', stiffness:60 } }}
+
+        className="relative flex flex-col gap-6 items-start -translate-x-0 -translate-y-3 left-[4%] lg:left-[110px]
+          md:left-[6%] w-[598px]">
           <h1 className='regular-40'>About Us</h1>
           <div className="flex flex-col w-[598px] gap-4">
-            <p className='regular-20'>
-              The Service-Driven Approach (SDA) is focused on services as primary units of value creation, design, development and
-              operation.
+            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+              ENAT Foreign Employment Agent PLC is a leading overseas recruitment agency based
+              in Addis Ababa, Ethiopia, renowned for its exceptional services in connecting
+              qualified candidates with suitable job opportunities abroad. With a highly skilled team of professionals, we have established ourselves as a trusted name in the
+              industry.
             </p>
-            <p className='regular-20'>
-              Generation of data in accordance with an AI system that can forecast future demands for human resources in many fields.
+            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+              One of our core strengths lies in our commitment to excellence. We prioritize
+              delivering high-quality services to both our clients and candidates.  
             </p>
-            <p className='regular-20'>
-              A comprehensive Platform integrating both data and services driven approaches.
+            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+              As a recognized agency, we specialize in providing Ethiopian housemaids to Saudi
+              Arabia, Dubai, and Jordan, meeting the demand for domestic help in these regions.
+              Furthermore, we have established agreements with Jordanian companies to supply
+              skilled and semi-skilled professionals, thus contributing to the development of the
+              workforce in Jordan.
             </p>
           </div>
-        </div>
+        </motion.div>
       </main>
     </section>
   )

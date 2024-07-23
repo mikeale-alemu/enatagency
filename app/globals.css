@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -9,10 +10,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
-  font-family: Inter;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
@@ -90,6 +92,9 @@ body {
   .regular-16 {
     @apply text-[16px] font-bold leading-5;
   }
+  .regular-15 {
+    @apply text-[15px] font-normal leading-5;
+  }
 
   .regular-14 {
     @apply text-[14px] font-thin tracking-wide leading-5;
@@ -109,6 +114,9 @@ body {
   .bold-64 {
     @apply text-[64px] font-[700] leading-[120%];
   }
+  .bold-60 {
+    @apply text-[58px] font-[600] leading-[120%];
+  }
 
   .bold-52 {
     @apply text-[52px] font-[700] leading-[120%];
@@ -117,13 +125,19 @@ body {
   .bold-40 {
     @apply text-[40px] font-[700] leading-[120%];
   }
+  .bold-36 {
+    @apply text-[36px] font-[600] leading-[120%];
+  }
+  .bold-32 {
+    @apply text-[32px] font-[500] leading-[120%];
+  }
 
   .bold-30 {
     @apply text-[30px] font-normal leading-[45px];
   }
 
   .bold-20 {
-    @apply text-[20px] font-[700];
+    @apply text-[20px] font-[600] leading-[30px];
   }
 
   .bold-18 {

@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer className="2xl:max-container">
       <section className='relative flex flex-1 flex-col'>
-        <div className="flex bg-gradient-to-b from-white/50 to-white/30">
+        <div className="flex bg-gradient-to-b from-white/50 to-white/20">
           <Image
             src='/96.png'
             alt="logo"
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
 
           <div className="border bg-gray-20" />
-          <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>          
+          <p className="regular-14 w-full text-center text-gray-30">2024 Enat Employment Agency | All rights reserved</p>          
         </main>
       </section>
     </footer>

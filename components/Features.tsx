@@ -1,41 +1,56 @@
-import { FEATURES } from '@/constants'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
+
+import { FEATURES } from "@/constants";
+import Image from "next/image";
+import Link from "next/link";
+
+interface CampProps {
+  image: string;
+  title: string;
+  description: string;
+}
+
+const CampSite = ({ image, title, description }: CampProps) => {
+  return (
+    <div className='relative group cursor-pointer'>
+      <div className="h-[408px] w-[284px] overflow-hidden rounded-[20px]">
+        <Image
+          src={image}
+          alt={`${title}'s image`}
+          layout="fit"
+          width={304}
+          height={418}
+          className="h-[408px] w-full bg-cover bg-center bg-no-repeat object-fill transform group-hover:scale-110 transition duration-300 ease-in-out"
+        />
+      </div>
+      <div className="absolute top-4 left-4 bg-white px-4 py-2 rounded-full ">
+        <h3 className='text-black regular-16'>{title}</h3>
+      </div>
+      <div className="absolute min-w-[284px]  translate-y-0 group-hover:-translate-y-[216px] transition-all left-0 w-full bg-black
+        bg-opacity-70 py-7 pb-10 px-6  duration-300 ease-in-out rounded-b-[20px] overflow-hidden">
+        <h3 className="regular-16 mb-7 text-white">{title}</h3>
+        <p className="w-[210px] regular-14 mb-10 text-white">{description}</p>
+        <Link href="#" className="absolute right-7 bold-14 text-white">
+          More
+        </Link>
+      </div>
+    </div>
+  )
+}
 
 const Features = () => {
   return (
-    <section className="flex flex-col py-4 ">
+    <section className="2xl:max-container relative flex flex-col">
       <h2 className="regular-40 mb-14 text-center">Featured Destinations</h2>
-      <div className="relative pt-2 pb-6 overflow-x-auto">
-      {/* overflow-x-scroll scroll whitespace-nowrap scroll-smooth */}
-        <div className="flex items-center justify-center gap-6 w-full hide-scrollbar overflow-x-auto"> 
-          {FEATURES.map((expert) => {
-            return (
-              <div key={expert.id} className="relative group w-[284px] h-[408px] cursor-pointer overflow-hidden rounded-2xl">
-                <Image
-                  src={expert.image}
-                  alt={`${expert.title}'s image`}
-                  layout="responsive"
-                  width={337}
-                  height={418}
-                  className="rounded-lg bg-cover object-cover transform group-hover:scale-110 transition duration-300 ease-in-out"
-                />
-                <div className="absolute top-4 left-4 bg-white  px-4 py-2 rounded-full ">
-                  <h3 className='text-black regular-16'>{expert.title}</h3>
-                </div>
-                <div className="absolute bottom-0 translate-y-[218px] group-hover:translate-y-0 transition-all left-0 w-full bg-black
-                  bg-opacity-70 text-white py-7 pb-10 px-6 rounded-b-lg  duration-300 ease-in-out">
-                  <h3 className="regular-16 mb-7">{expert.title}</h3>
-                  <p className="w-[210px] regular-14 mb-10">{expert.description}</p>
-                  <Link href="#" className="absolute right-7 bold-14">
-                    More
-                  </Link>
-                </div>
-              </div>
-            )
-          })}
-        </div>
+      <div className="hide-scrollbar px-10 flex h-[408px] w-full items-start justify-start gap-5 overflow-x-auto overflow-y-hidden">
+        {FEATURES.map((items) => {
+          return (
+            <CampSite 
+              image={items.image}
+              title={items.title}
+              description={items.description}
+            />
+          )
+        })}
       </div>
     </section>
   )

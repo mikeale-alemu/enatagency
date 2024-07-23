@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link
               href={link.href}
               key={link.key} 
-              className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold text-gray-500"
+              className="regular-15 text-gray-500 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
             >
               {link.label}
             </Link>
@@ -29,12 +29,16 @@ const Navbar = () => {
         })}
       </ul>
       <div className="lg:flexCenter hidden">
-        <Button
-          type='button'
-          title='Contact'
-        //   icon='/user.svg'
-          variant='btn_blue'
-        />
+        <Link
+          href='/contact'
+        >
+          <Button
+            type='button'
+            title='Contact'
+          //   icon='/user.svg'
+            variant='btn_blue'
+          />
+        </Link>
       </div>
       <Image
         src="menu.svg"
