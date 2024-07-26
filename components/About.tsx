@@ -17,15 +17,20 @@ const About = () => {
         />
       </div>
       <main className='relative flex flex-col py-10 pb-32 gap-10 xl:gap-2  overflow-hidden lg:py-20 xl:flex-row z-10'>
-        <div className="relative z-20 flex flex-col items-end w-[611px]">
+        <motion.div 
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ delay:0.2, x: { type: 'spring', stiffness:60 } }}
+        
+        className="relative z-20 flex flex-col items-end w-[611px]">
           <Image
             src='/Frame-1.png'
             alt='about image'
             width={611}
             height={461}
-            className=''
+            className='bg-cover bg-no-repeat bg-[50%]'
           />
-        </div>
+        </motion.div>
         <motion.div 
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -35,17 +40,17 @@ const About = () => {
           md:left-[6%] w-[598px]">
           <h1 className='regular-40'>About Us</h1>
           <div className="flex flex-col w-[598px] gap-4">
-            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+            <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
               ENAT Foreign Employment Agent PLC is a leading overseas recruitment agency based
               in Addis Ababa, Ethiopia, renowned for its exceptional services in connecting
               qualified candidates with suitable job opportunities abroad. With a highly skilled team of professionals, we have established ourselves as a trusted name in the
               industry.
             </p>
-            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+            <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
               One of our core strengths lies in our commitment to excellence. We prioritize
               delivering high-quality services to both our clients and candidates.  
             </p>
-            <p className='regular-18 font-serif w-[465px] sm:w-[597px]'>
+            <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
               As a recognized agency, we specialize in providing Ethiopian housemaids to Saudi
               Arabia, Dubai, and Jordan, meeting the demand for domestic help in these regions.
               Furthermore, we have established agreements with Jordanian companies to supply

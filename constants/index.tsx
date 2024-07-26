@@ -87,7 +87,7 @@ export const Achievements = [
   {
     icon: '/build.svg',
     numbers: 8,
-    title: "Years of Experie",
+    title: "Years of experience",
   },
   {
     icon: '/happy.svg',
@@ -102,38 +102,47 @@ export const Achievements = [
 ]
 
 // FOOTER SECTION
-export const FOOTER_LINKS = [
+export const FOOTER_LINK = [
   {
     title: 'Learn More',
     links: [
-      'About Enat',
-      'Services',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
-      'Contact Us',
+      { link: '/', value: 'Home' },
+      { link: '/', value: 'About Enat' },
+      { link: '/', value: 'Services' },
+      // { link: '/', value: 'Privacy Policy' },
+      { link: '/', value: 'Contact Us' },
     ],
-  },
+  }
+];
+
+export const FOOTER_LINK1 = [
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Our Destinations',
+    links: [
+      { flag: '/United-Arab-Emirates.svg' , value: 'United Arab Emirates (UAE)' },
+      { flag: '/Saudi-Arabia.svg' , value: 'Saudi Arabia'},
+      { flag: '/Qatar.svg' , value: 'Qatar' },
+      { flag: '/Kuwait.svg' , value: 'Kuwait' },
+      { flag: '/Jordan.svg' , value: 'Jordan' },
+    ],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '+251-983-074-715' },
-    { label: 'Email Officer', value: 'info@enatemploymentagency.com' },
+    { label: 'Call us', icon: '/call.svg', value: '+251-983-074-715' },
+    { label: 'Email Address', icon: '/email.svg', value: 'info@enatemploymentagency.com' },
+    { label: 'Visit Office', icon: '/location-pin.svg', value: 'Hayahulet Yeab Building 4th Floor Office No 401' },
   ],
 };
 
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
+    { href: "https://www.facebook.com/enatforeignemploymentagency", icon: '/facebook.svg' },
+    { href: "https://t.me/Enatfea", icon: '/telegram.svg' },
+    { href: "https://www.instagram.com/enat_agency?igsh=dWRia2dzbnh6bWdx", icon: '/instagram.svg' },
+    { href: "https://www.tiktok.com/@enatagency", icon: '/tiktok.svg' },
   ],
 };

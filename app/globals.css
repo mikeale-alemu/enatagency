@@ -25,7 +25,7 @@ body {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
   .btn_blue  { 
-    @apply  border-blue-700 bg-blue-500 px-6 py-2 text-white
+    @apply  border-blue-700 bg-blue-400 px-6 py-2 text-white shadow-lg hover:shadow-blue-400 hover:bg-blue-500 transition ease-in-out duration-300
   }
   .btn_dark_green { 
     @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
@@ -98,6 +98,9 @@ body {
 
   .regular-14 {
     @apply text-[14px] font-thin tracking-wide leading-5;
+  }
+  .regular-10 {
+    @apply text-[10px] font-thin tracking-wide leading-5;
   }
 
   .medium-14 {

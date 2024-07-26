@@ -1,4 +1,6 @@
-import React from 'react'
+"use client";
+
+import React, { createContext } from 'react';
 import { Button } from './ui/button'
 import { Textarea } from './ui/textarea'
 import { Label } from './ui/label'
@@ -12,15 +14,21 @@ import { GrMapLocation } from 'react-icons/gr'
 // import { MdOutlineMail } from 'react-icons/md'
 import { GiAlarmClock } from 'react-icons/gi'
 import { AiTwotoneMail } from 'react-icons/ai'
+import { motion } from 'framer-motion'
 
 const Contact = () => {
   return (
     <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
       <div className="pb-12">
         <section className="py-12 lg:py-16 xl:py-20">
-          <main className="wrapper px-6 md:px-10">
+          <main className="wrapper px-1 xs:px-2 sm:px-6 md:px-10">
             <div className="grid items-start gap-12 lg:grid-cols-2 xl:gap-20">
-              <div className="space-y-4">
+              <motion.div 
+              initial={{ x: -100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
+              
+              className="space-y-4">
                 <div className="space-y-4 mb-12">
                   <div className="flex flex-col space-y-3 mb-8">
                     <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-black">Get in touch</h1>
@@ -31,35 +39,35 @@ const Contact = () => {
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <div className="grid grid-cols-2 grid-rows-2 gap-6 sm:grid-cols-2">
-                    <div className="space-y-2 flex flex-row items-center justify-center gap-4">
+                  <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:gap-6 sm:grid-cols-2">
+                    <div className="space-y-2 flex flex-row items-center justify-center gap-1 sm:gap-4">
                       <GrMapLocation className="text-6xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
-                        <p className="text-xs sm:text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
                           22 hailegebresilassie st. , Addis Ababa, Ethiopia
                         </p>
                       </div>  
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
-                        <p className="text-[10px] sm:text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
+                        <p className="text-[8px] xs:text-[10px] sm:text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">PHONE</span>
-                        <p className="text-xs sm:text-sm text-gray-700 leading-loose">+251-983-074-715</p>
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
-                        <p className="text-xs sm:text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>
                       </div>
@@ -79,8 +87,13 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="space-y-4">
+              </motion.div>
+              <motion.div 
+              initial={{ x: 100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
+              
+              className="space-y-4">
                 <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl text-black">YOUR DETAILS</h1>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
@@ -103,7 +116,7 @@ const Contact = () => {
                 <div className="w-full pt-4">
                   <Button className="px-12 py-6 text-white bg-blue-600 hover:bg-blue-800">Submit Message</Button>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </main>
         </section>

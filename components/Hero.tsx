@@ -42,13 +42,12 @@ const Hero = ({ autoSlide= false }) => {
           />from-black/70 to-black/40
         </div> */}
         <div className="w-full bg-gradient-to-t from-black/70 to-black/40">
-          <Image
+          <img
             src={`${sliderHome[currentIndex].url}`}
             alt='home image'
-            layout='responsive'
-            width={363}
-            height={284}
-            className="w-full max-h-screen mix-blend-overlay"
+            // width={363}
+            // height={684}
+            className="w-full bg-cover bg-no-repeat h-screen mix-blend-overlay bg-center"
           />
         </div>
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-1 md:right-6 sm:right-3 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
@@ -64,15 +63,16 @@ const Hero = ({ autoSlide= false }) => {
             ))}
           </div>
         </div>
-        <div className="absolute w-[759px] h-[294px] gap-2 -translate-x-0 -translate-y-[50%] top-52 sm:top-60 md:top-72 xl:top-[315px] left-[6%] lg:left-[110px] md:left-[6%]">
-          <h1 className='text-white bold-18 md:bold-20 lg:bold-30 font-serif '>Discover Your Next Adventure</h1>
+        <div className="absolute w-[759px] h-[294px] gap-2 -translate-x-0 translate-y-[50%] left-[6%] lg:left-[110px] md:left-[6%]">
+          <h1 className='text-white bold-18 md:bold-20 lg:bold-30'>Discover Your Next Adventure</h1>
           <h1 className="w-[354px] sm:w-[435px] md:w-[487px] lg:w-[642px] xl:w-[737px] text-white bold-40 sm:bold-52 md:bold-60 lg:bold-75">
-            Find your <span className="text-blue-600 font-black font-serif">dream</span> job abroad
+            Find your <span className="text-blue-300 font-black font-serif">dream</span> job abroad
           </h1>
           <div className="max-w-5xl lg:mr-auto pr-5 md:pr-10 xl:pr-0 w-full">
-            <p className="regular-14 md:regular-18 font-serif mt-6 text-white/80 w-[446px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:max-h-[89px]">
-              The Ethiopian Labor Market Information System empowers individuals, businesses, and nations by connecting skilled Ethiopian workers with domestic and
-              global employment opportunities, fostering economic growth and development.
+            <p className="regular-14 md:regular-18 mt-6 text-white/80 w-[326px] xs:w-[386px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:w-[916px]">
+              ENAT Foreign Employment Agent PLC is synonymous with reliability, professionalism, and efficiency. We prioritize the welfare of our candidates, 
+              ensuring their safety and well-being throughout the entire recruitment process. With our extensive network, expertise, and unwavering commitment,
+              we strive to deliver optimal results and create a positive impact on both our clients and candidates.
             </p>
           </div>
         </div>

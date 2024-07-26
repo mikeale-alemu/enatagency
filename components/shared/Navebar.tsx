@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link
               href={link.href}
               key={link.key} 
-              className="regular-15 text-gray-500 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold"
+              className="regular-15 text-gray-500 flexCenter cursor-pointer pb-1.5 transition hover:scale-105 hover:font-bold ease-in-out duration-300"
             >
               {link.label}
             </Link>
@@ -31,6 +31,7 @@ const Navbar = () => {
       <div className="lg:flexCenter hidden">
         <Link
           href='/contact'
+          className="hover:scale-105 transition ease-in-out duration-300"
         >
           <Button
             type='button'
