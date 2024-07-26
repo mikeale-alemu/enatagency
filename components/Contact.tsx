@@ -5,7 +5,7 @@ import { Button } from './ui/button'
 import { Textarea } from './ui/textarea'
 import { Label } from './ui/label'
 import { Input } from './ui/input'
-import { FaTelegram, FaTwitter } from 'react-icons/fa6'
+import { FaTelegram } from 'react-icons/fa6'
 import { FiPhoneCall } from 'react-icons/fi'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { RiInstagramFill } from 'react-icons/ri'
@@ -13,8 +13,9 @@ import GoogleMapLocation from './GoogleMapLocation'
 import { GrMapLocation } from 'react-icons/gr'
 // import { MdOutlineMail } from 'react-icons/md'
 import { GiAlarmClock } from 'react-icons/gi'
-import { AiTwotoneMail } from 'react-icons/ai'
+import { AiFillTikTok, AiTwotoneMail } from 'react-icons/ai'
 import { motion } from 'framer-motion'
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -79,11 +80,19 @@ const Contact = () => {
                   <div className="flex flex-row items-center justify-between">
                     <h1 className="text-xl font-bold tracking-tighter sm:text-2xl text-black">OUR SOCIAL MEDIA</h1>
                     <div className="flex flex-row items-center justify-center gap-4 md:gap-8 text-3xl">
-                      <RiInstagramFill className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      <Link href='https://www.instagram.com/enat_agency?igsh=dWRia2dzbnh6bWdx'>
+                        <RiInstagramFill className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
                       {/* <FaInstagram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" /> */}
-                      <FaFacebookSquare className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
-                      <FaTwitter className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
-                      <FaTelegram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      <Link href='https://www.facebook.com/enatforeignemploymentagency'>
+                        <FaFacebookSquare className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
+                      <Link href='https://www.tiktok.com/@enatagency'>
+                        <AiFillTikTok className="transform scale-105 hover:scale-110 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
+                      <Link href='https://t.me/Enatfea'>
+                        <FaTelegram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
                     </div>
                   </div>
                 </div>

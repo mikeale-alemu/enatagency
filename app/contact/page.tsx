@@ -1,7 +1,5 @@
-import { FaInstagram, FaMapLocation, FaTelegram, FaTwitter } from 'react-icons/fa6'
-import { PiTelegramLogoLight } from 'react-icons/pi'
+import { FaTelegram } from 'react-icons/fa6'
 import { FiPhoneCall } from 'react-icons/fi'
-import { CiClock2 } from 'react-icons/ci'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { RiInstagramFill } from 'react-icons/ri'
 import { Label } from '@/components/ui/label'
@@ -13,15 +11,17 @@ import Image from 'next/image'
 import { GrMapLocation } from 'react-icons/gr'
 import { MdOutlineMail } from 'react-icons/md'
 import { GiAlarmClock } from 'react-icons/gi'
+import Link from 'next/link'
+import { AiFillTikTok, AiTwotoneMail } from 'react-icons/ai'
 
 const page = () => {
   return (
     <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
       <div className="pb-12">
         <main className="relative">
-          <div className="w-full bg-gradient-to-t from-white to-black/30">
+          <div className="w-full bg-gradient-to-t from-white to-black/50">
             <Image
-              src='/boat.png'
+              src='/photo3.jpg'
               alt='demon'
               layout="responsive"
               objectFit="cover"
@@ -30,15 +30,15 @@ const page = () => {
               className="mix-blend-overlay"
             />
           </div>
-          <div className="2xl:max-container absolute left-2 sm:left-14 md:left-24 lg:left-64 top-10 lg:top-40 md:20 z-20 flex flex-col items-center justify-center">
-            <div className="flex flex-col items-center justify-center gap-3">
-              <h1 className="text-center text-2xl lg:text-6xl md:4xl font-serif font-bold text-white">
+          <div className="2xl:max-container absolute  left-2 sm:left-14 md:left-24 lg:left-64 top-10 lg:top-40 md:20 z-20 flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center gap-1 lg:gap-3">
+              <h1 className="text-center text-2xl lg:text-6xl md:4xl font-serif font-bold text-blue-400">
                 Contact Us
               </h1>
               <div className="content-[''] bg-blue-500 h-[3px] w-[80%] left-0 bottom-0 rounded-xl duration-300"></div>
             </div>
             <div className="w-[510px] md:w-[730px] mt-14">
-              <p className="text-white text-center">
+              <p className="text-gray-700 text-center">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque corrupti laboriosam nulla 
                 repudiandae, sint reiciendis eligendi et ea cupiditate architecto!
               </p>
@@ -59,35 +59,35 @@ const page = () => {
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <div className="grid grid-cols-2 grid-rows-2 gap-6 sm:grid-cols-2">
-                    <div className="space-y-2 flex flex-row items-center justify-center gap-4">
+                  <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:gap-6 sm:grid-cols-2">
+                    <div className="space-y-2 flex flex-row items-center justify-center gap-1 sm:gap-4">
                       <GrMapLocation className="text-6xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
-                        <p className="text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
                           22 hailegebresilassie st. , Addis Ababa, Ethiopia
                         </p>
                       </div>  
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
-                      <MdOutlineMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                      <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
-                        <p className="text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
+                        <p className="text-[8px] xs:text-[10px] sm:text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">PHONE</span>
-                        <p className="text-sm text-gray-700 leading-loose">+251-983-074-715</p>
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-4">
-                      <GiAlarmClock className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                      <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
-                        <p className="text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>
                       </div>
@@ -99,11 +99,19 @@ const page = () => {
                   <div className="flex flex-row items-center justify-between">
                     <h1 className="text-xl font-bold tracking-tighter sm:text-2xl text-black">OUR SOCIAL MEDIA</h1>
                     <div className="flex flex-row items-center justify-center gap-4 md:gap-8 text-3xl">
-                      <RiInstagramFill className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      <Link href='https://www.instagram.com/enat_agency?igsh=dWRia2dzbnh6bWdx'>
+                        <RiInstagramFill className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
                       {/* <FaInstagram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" /> */}
-                      <FaFacebookSquare className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
-                      <FaTwitter className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
-                      <FaTelegram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      <Link href='https://www.facebook.com/enatforeignemploymentagency'>
+                        <FaFacebookSquare className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
+                      <Link href='https://www.tiktok.com/@enatagency'>
+                        <AiFillTikTok className="transform scale-105 hover:scale-110 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
+                      <Link href='https://t.me/Enatfea'>
+                        <FaTelegram className="transform hover:scale-105 transition duration-300 ease-in-out text-blue-600 hover:text-gray-400" />
+                      </Link>
                     </div>
                   </div>
                 </div>

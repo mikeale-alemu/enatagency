@@ -86,7 +86,7 @@ const Footer = () => {
                   <ul className="regular-14 flex gap-4 text-gray-30">
                     {SOCIALS.links.map((link) => (
                       <Link href={`${link.href}`} key={link.icon}>
-                        <Image src={link.icon} alt="logo" width={24} height={24} className='hover:scale-110 transition ease-in-out' />
+                        <Image src={link.icon} alt="logo" width={24} height={24} className='hover:scale-105 transition ease-in-out duration-300' />
                       </Link>
                     ))}
                   </ul>
