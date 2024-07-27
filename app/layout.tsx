@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/Navebar";
 import Footer from "@/components/shared/Footer";
 import { Poppins } from "next/font/google";
+import Header from "@/components/shared/Header";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <Navbar />
+        <Header />
         <main className='relative overflow-hidden'>{children}</main>
         <Footer />
       </body>

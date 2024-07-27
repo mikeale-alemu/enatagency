@@ -1,7 +1,8 @@
 "use client";
 
-import { motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import Image from 'next/image';
+import { useRef } from 'react';
 
 type FeatureItem = {
   title: string;
@@ -10,12 +11,17 @@ type FeatureItem = {
 }
 
 const HowItWorks = () => {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <section id='howitwork' className='max-container overflow-hidden mb-28 w-full flex flex-col items-center gap-5'>
       <motion.main
-        initial={{ y: 50, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ delay:0.4, x: { type: 'spring', stiffness:60 } }}
+      ref={ref}
+      initial={{ y: 50, opacity: 0 }}
+      animate={ isInView ? { x: 0, opacity: 1 } : {}}
+      transition={{ delay:0.5, x: { type: 'spring', stiffness:70 } }}
       
       className="max-container xl:w-[862px] padding-container mt-24 flex flex-col gap-10">
         <h1 className='regular-34 lg:bold-40 text-center'>How it works</h1>

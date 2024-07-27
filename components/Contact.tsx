@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext } from 'react';
+import React, { createContext, useRef } from 'react';
 import { Button } from './ui/button'
 import { Textarea } from './ui/textarea'
 import { Label } from './ui/label'
@@ -14,10 +14,14 @@ import { GrMapLocation } from 'react-icons/gr'
 // import { MdOutlineMail } from 'react-icons/md'
 import { GiAlarmClock } from 'react-icons/gi'
 import { AiFillTikTok, AiTwotoneMail } from 'react-icons/ai'
-import { motion } from 'framer-motion'
+import { motion, useInView } from 'framer-motion'
 import Link from 'next/link';
 
 const Contact = () => {
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
     <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
       <div className="pb-12">
@@ -25,8 +29,9 @@ const Contact = () => {
           <main className="wrapper px-1 xs:px-2 sm:px-6 md:px-10">
             <div className="grid items-start gap-12 lg:grid-cols-2 xl:gap-20">
               <motion.div 
+              ref={ref}
               initial={{ x: -100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              animate={ isInView ? { x: 0, opacity: 1 } : {}}
               transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
               
               className="space-y-4">
@@ -98,8 +103,9 @@ const Contact = () => {
                 </div>
               </motion.div>
               <motion.div 
+              ref={ref}
               initial={{ x: 100, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
+              animate={ isInView ? { x: 0, opacity: 1 } : {}}
               transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
               
               className="space-y-4">
