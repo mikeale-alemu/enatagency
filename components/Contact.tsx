@@ -59,7 +59,7 @@ const Contact = () => {
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
-                        <p className="text-[8px] xs:text-[10px] sm:text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
+                        <p className="text-[8px] xs:text-[10px] sm:text-[13px] text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
