@@ -19,7 +19,7 @@ const page = () => {
     <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
       <div className="pb-12">
         <main className="relative">
-          <div className="w-full bg-gradient-to-t from-white to-black/50">
+          <div className="w-full bg-gradient-to-t from-white to-black/30">
             <Image
               src='/photo3.jpg'
               alt='demon'
@@ -32,15 +32,14 @@ const page = () => {
           </div>
           <div className="2xl:max-container absolute  left-2 sm:left-14 md:left-24 lg:left-64 top-10 lg:top-40 md:20 z-20 flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-1 lg:gap-3">
-              <h1 className="text-center text-2xl lg:text-6xl md:4xl font-serif font-bold text-blue-400">
+              <h1 className="text-center text-2xl lg:text-6xl md:4xl font-serif font-bold text-blue-900">
                 Contact Us
               </h1>
               <div className="content-[''] bg-blue-500 h-[3px] w-[80%] left-0 bottom-0 rounded-xl duration-300"></div>
             </div>
-            <div className="w-[510px] md:w-[730px] mt-14">
-              <p className="text-gray-700 text-center">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque corrupti laboriosam nulla 
-                repudiandae, sint reiciendis eligendi et ea cupiditate architecto!
+            <div className="w-[510px] md:w-[730px] mt-10">
+              <p className="text-black text-center">
+                Market Opportunities and Trends for Foreign Employment Services in Ethiopia
               </p>
             </div>
           </div> 
@@ -59,35 +58,35 @@ const page = () => {
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:gap-6 sm:grid-cols-2">
-                    <div className="space-y-2 flex flex-row items-center justify-center gap-1 sm:gap-4">
-                      <GrMapLocation className="text-6xl transform transition duration-300 ease-in-out text-blue-600" />
+                  <div className="grid grid-cols-2 grid-rows-2 sm:gap-6 sm:grid-cols-2">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                      <GrMapLocation className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
-                          22 hailegebresilassie st. , Addis Ababa, Ethiopia
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
+                          Hayahulet st. Addis Ababa, Ethiopia
                         </p>
                       </div>  
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4 lg:gap-2 xl:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
-                        <p className="text-[8px] xs:text-[10px] sm:text-sm text-gray-700 leading-loose">info@enatemploymentagency.com</p>
+                        <p className="text-[8px] xs:text-[10px]  text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">PHONE</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">+251-983-074-715</p>
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>
                       </div>
@@ -121,20 +120,20 @@ const page = () => {
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="first-name" className="text-black">First name*</Label>
-                    <Input id="first-name" placeholder="Your Name" className="bg-gray-300 border border-gray-300 text-black" />
+                    <Input id="first-name" placeholder="Your Name" className="bg-gray-100 border border-gray-300 text-black" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email-address" className="text-black">Email Address*</Label>
-                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-300 border border-gray-300 text-black" />
+                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-100 border border-gray-300 text-black" />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="subject" className="text-black">Subject*</Label>
-                  <Input id="subject" placeholder="Subject" className="bg-gray-300 border border-gray-300 text-black" />
+                  <Input id="subject" placeholder="Subject" className="bg-gray-100 border border-gray-300 text-black" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message" className="text-black">Comments/Questions*</Label>
-                  <Textarea className="min-h-[150px] resize-y bg-gray-300 border border-gray-300 text-black" id="message" placeholder="Your Message" />
+                  <Textarea className="min-h-[150px] resize-y bg-gray-100 border border-gray-300 text-black" id="message" placeholder="Your Message" />
                 </div>
                 <div className="w-full pt-4">
                   <Button className="px-12 py-6 text-white bg-blue-600 hover:bg-blue-800">Submit Message</Button>

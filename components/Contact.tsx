@@ -45,17 +45,17 @@ const Contact = () => {
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:gap-6 sm:grid-cols-2">
+                  <div className="grid grid-cols-2 grid-rows-2 sm:gap-6 sm:grid-cols-2">
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
-                      <GrMapLocation className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
+                      <GrMapLocation className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
-                          22 hailegebresilassie st. , Addis Ababa, Ethiopia
+                          Hayahulet st. Addis Ababa, Ethiopia
                         </p>
                       </div>  
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4 lg:gap-2 xl:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
