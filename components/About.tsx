@@ -11,13 +11,13 @@ const About = () => {
 
   return (
     <section className='relative 2xl:max-container' id='about'>
-      <div className="absolute left-[715px] -top-16 w-full">
+      <div className="absolute -top-16 w-full left-0 sm:left-10 md:left-20 lg:left-44 xl:left-[715px]">
         <Image
           src='/9267.png'
           alt='About Image'
           width={599}
           height={1045}
-          className='object-cover object-center bg-cover opacity-80'
+          className='object-cover object-center bg-cover opacity-95'
         />
       </div>
       <main className='relative flex flex-col xl:flex-row py-10 pb-32 gap-10 xl:gap-2 overflow-hidden lg:py-20 z-10'>
@@ -29,9 +29,10 @@ const About = () => {
         
         className="relative z-20 order-2 xl:order-1 items-end w-[611px] left-0 sm:left-10 md:left-20 lg:left-44 xl:left-0">
           <Image
-            src='/Frame-1.png'
+            src='/agency1.jpg'
             alt='about image'
-            width={611}
+            layout='responsive'
+            width={681}
             height={461}
             className='bg-cover bg-no-repeat bg-[50%]'
           />

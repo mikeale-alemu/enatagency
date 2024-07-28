@@ -17,7 +17,7 @@ import { useRef } from 'react';
             alt='About Image'
             width={599}
             height={1045}
-            className='object-cover object-center opacity-70 bg-cover'
+            className='object-cover object-center opacity-95 bg-cover'
           />
         </div>
         <main className='flex flex-col py-14 gap-10 xl:gap-1 pb-32 overflow-hidden lg:py-28 xl:flex-row z-10'>
