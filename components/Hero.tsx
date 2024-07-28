@@ -23,7 +23,7 @@ const Hero = ({ autoSlide= false }) => {
 
   useEffect(() => {
     if (autoSlide) {
-    const slideInterval = setInterval(nextSlide, 6000)
+    const slideInterval = setInterval(nextSlide, 9000)
     return () => clearInterval(slideInterval);
     }
   }, [autoSlide, currentIndex]);
