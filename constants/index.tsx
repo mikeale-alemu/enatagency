@@ -87,7 +87,7 @@ export const Achievements = [
   {
     icon: '/build.svg',
     numbers: 8,
-    title: "Years of experience",
+    title: "Years Of Experience",
   },
   {
     icon: '/happy.svg',

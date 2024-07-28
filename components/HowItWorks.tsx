@@ -25,7 +25,7 @@ const HowItWorks = () => {
       
       className="max-container xl:w-[862px] padding-container my-16 flex flex-col gap-10">
         <h1 className='regular-34 lg:bold-40 text-center'>How it works</h1>
-        <p className='text-[16px] font-normal leading-5 text-center font-serif'>
+        <p className='text-gray-800 text-[16px] font-normal leading-5 text-center'>
           Ethiopian Housemaids to Gulf countries: We have successfully supplied Ethiopian
           housemaids to clients in Saudi Arabia, Qatar, UAE, Kuwait, and Jordan ensuring a reliable and
           trustworthy workforce. We have more than 8 years of experience and still counting.
@@ -49,7 +49,7 @@ const HowItWorks = () => {
           <FeatureItem
             title="Quality Support & Assistance" 
             icon='/headphon.svg'
-            description="Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+            description="Ensuring exceptional support and guidance for a smooth and successful international employment process."
           />
         </div>
         <div className="">

@@ -49,7 +49,7 @@ const Contact = () => {
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GrMapLocation className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
+                        <span className="block font-medium text-black text-lg">LOCATION</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Hayahulet st. Addis Ababa, Ethiopia
                         </p>
@@ -58,21 +58,21 @@ const Contact = () => {
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4 lg:gap-2 xl:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
+                        <span className="block font-medium text-black text-lg">EMAIL</span>
                         <p className="text-[8px] xs:text-[10px]  text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">PHONE</span>
+                        <span className="block font-medium text-black text-lg">PHONE</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
+                        <span className="block font-medium text-black text-lg">OPEN HOUR</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>

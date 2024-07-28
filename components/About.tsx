@@ -48,17 +48,17 @@ const About = () => {
           <div className="flex flex-col">
             <h1 className='regular-40'>About Us</h1>
             <div className="flex flex-col w-[598px] gap-4">
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] text-gray-800'>
                 ENAT Foreign Employment Agent PLC is a leading overseas recruitment agency based
                 in Addis Ababa, Ethiopia, renowned for its exceptional services in connecting
                 qualified candidates with suitable job opportunities abroad. With a highly skilled team of professionals, we have established ourselves as a trusted name in the
                 industry.
               </p>
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] text-gray-800'>
                 One of our core strengths lies in our commitment to excellence. We prioritize
                 delivering high-quality services to both our clients and candidates.  
               </p>
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] text-gray-800'>
                 As a recognized agency, we specialize in providing Ethiopian housemaids to Saudi
                 Arabia, Dubai, and Jordan, meeting the demand for domestic help in these regions.
                 Furthermore, we have established agreements with Jordanian companies to supply

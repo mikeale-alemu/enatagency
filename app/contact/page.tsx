@@ -30,14 +30,14 @@ const page = () => {
               className="mix-blend-overlay"
             />
           </div>
-          <div className="2xl:max-container absolute  left-2 sm:left-14 md:left-24 lg:left-64 top-10 lg:top-40 md:20 z-20 flex flex-col items-center justify-center">
+          <div className="padding-container -translate-y-[90%] xs:-translate-y-[110%] sm:-translate-y-[130%] md:-translate-y-[210%] lg:-translate-y-[250%] z-20 flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-1 lg:gap-3">
               <h1 className="text-center text-2xl lg:text-6xl md:4xl font-serif font-bold text-blue-900">
                 Contact Us
               </h1>
               <div className="content-[''] bg-blue-500 h-[3px] w-[80%] left-0 bottom-0 rounded-xl duration-300"></div>
             </div>
-            <div className="w-[510px] md:w-[730px] mt-10">
+            <div className="mt-3 sm:mt-6">
               <p className="text-black text-center">
                 Market Opportunities and Trends for Foreign Employment Services in Ethiopia
               </p>
@@ -62,7 +62,7 @@ const page = () => {
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GrMapLocation className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
+                        <span className="block font-medium text-black text-lg">LOCATION</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Hayahulet st. Addis Ababa, Ethiopia
                         </p>
@@ -71,21 +71,21 @@ const page = () => {
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4 lg:gap-2 xl:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
+                        <span className="block font-medium text-black text-lg">EMAIL</span>
                         <p className="text-[8px] xs:text-[10px]  text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">PHONE</span>
+                        <span className="block font-medium text-black text-lg">PHONE</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
-                        <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
+                        <span className="block font-medium text-black text-lg">OPEN HOUR</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>

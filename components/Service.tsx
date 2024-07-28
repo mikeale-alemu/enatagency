@@ -30,17 +30,17 @@ import { useRef } from 'react';
           className="relative flex flex-col gap-7 items-start w-[598px] h-[359] -translate-x-0 -translate-y-3 left-[5%] lg:left-[140px] md:left-[7%]">
             <h1 className='regular-40'>Services</h1>
             <div className="flex flex-col w-[598px] gap-4">
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] md:w-[615px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] text-gray-800 sm:w-[597px] md:w-[615px]'>
                 Overseas Job Placement: We specialize in sourcing and connecting individuals with
                 employment opportunities abroad. Our extensive network and expertise allow us to
                 cater to various industries and positions, ensuring the right match for candidates.
               </p>
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] md:w-[615px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] text-gray-800 sm:w-[597px] md:w-[615px]'>
                 We provide personalized support and guidance throughout the entire recruitment
                 process, ensuring satisfaction and success for individuals seeking overseas
                 employment.
               </p>
-              <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] md:w-[615px]'>
+              <p className='regular-18 w-[328px] xs:w-[387px] text-gray-800 sm:w-[597px] md:w-[615px]'>
                 Pre-Departure Training and Orientation: We offer comprehensive training programs
                 for individuals preparing to work abroad. These programs equip candidates with the
                 necessary skills, cultural awareness, and practical knowledge to adapt to their new work environments.

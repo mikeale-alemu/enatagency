@@ -34,7 +34,7 @@ const Header = () => {
           </div>
         </nav>
         <div className="flex items-center gap-7 mr-2">
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden">
             <Link
               href='/contact'
               className="hover:scale-105 transition ease-in-out duration-300"
@@ -46,7 +46,7 @@ const Header = () => {
                 variant='btn_blue'
               />
             </Link>
-          </div>
+          </div> */}
           <div className="lg:hidden">
             <MobileNav />
           </div>
