@@ -23,7 +23,7 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
+    <section id='contact' className='2xl:max-container'>
       <div className="pb-12">
         <section className="py-12 lg:py-16 xl:py-20">
           <main className="wrapper px-1 xs:px-2 sm:px-6 md:px-10">
@@ -46,11 +46,11 @@ const Contact = () => {
                 </div>
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:gap-6 sm:grid-cols-2">
-                    <div className="space-y-2 flex flex-row items-center justify-center gap-1 sm:gap-4">
-                      <GrMapLocation className="text-6xl transform transition duration-300 ease-in-out text-blue-600" />
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                      <GrMapLocation className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">LOCATION</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           22 hailegebresilassie st. , Addis Ababa, Ethiopia
                         </p>
                       </div>  
@@ -59,21 +59,21 @@ const Contact = () => {
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">EMAIL</span>
-                        <p className="text-[8px] xs:text-[10px] sm:text-[13px] text-gray-700 ">info@enatemploymentagency.com</p>
+                        <p className="text-[8px] xs:text-[10px]  text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">PHONE</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">+251-983-074-715</p>
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
                     <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg font-serif">OPEN HOUR</span>
-                        <p className="regular-10 xs:text-xs sm:text-sm text-gray-700 leading-loose">
+                        <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
                           Mon-Fri: 9:00 AM - 5:00 PM Sat-Sun: Closed
                         </p>
                       </div>
