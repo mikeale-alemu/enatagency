@@ -113,20 +113,20 @@ const Contact = () => {
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="first-name" className="text-black">First name*</Label>
-                    <Input id="first-name" placeholder="Your Name" className="bg-gray-300 border border-gray-300 text-black" />
+                    <Input id="first-name" placeholder="Your Name" className="bg-gray-100 border border-gray-300 text-black" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email-address" className="text-black">Email Address*</Label>
-                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-300 border border-gray-300 text-black" />
+                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-100 border border-gray-300 text-black" />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="subject" className="text-black">Subject*</Label>
-                  <Input id="subject" placeholder="Subject" className="bg-gray-300 border border-gray-300 text-black" />
+                  <Input id="subject" placeholder="Subject" className="bg-gray-100 border border-gray-300 text-black" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message" className="text-black">Comments/Questions*</Label>
-                  <Textarea className="min-h-[150px] resize-y bg-gray-300 border border-gray-300 text-black" id="message" placeholder="Your Message" />
+                  <Textarea className="min-h-[150px] resize-y bg-gray-100 border border-gray-300 text-black" id="message" placeholder="Your Message" />
                 </div>
                 <div className="w-full pt-4">
                   <Button className="px-12 py-6 text-white bg-blue-600 hover:bg-blue-800">Submit Message</Button>

@@ -41,13 +41,13 @@ const Hero = ({ autoSlide= false }) => {
             className="w-screen min-h-screen mix-blend-overlay bg-cover bg-center"
           />from-black/70 to-black/40
         </div> */}
-        <div className="w-full bg-gradient-to-t from-black/70 to-black/40">
+        <div className="w-full h-screen bg-gradient-to-t from-black/70 to-black/40">
           <img
             src={`${sliderHome[currentIndex].url}`}
             alt='home image'
             // width={363}
             // height={684}
-            className="w-full bg-cover bg-no-repeat h-screen mix-blend-overlay bg-center"
+            className="w-full bg-cover h-screen bg-no-repeat mix-blend-overlay bg-center top-0 left-0"
           />
         </div>
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-1 md:right-6 sm:right-3 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">

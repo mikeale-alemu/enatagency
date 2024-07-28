@@ -12,11 +12,11 @@ export const NAV_LINKS = [
 export const sliderHome = [
   { url: '/Home page/17.jpg' },
   { url: '/Home page/32.jpg' },
-  { url: '/Home page/18.jpg' },
-  { url: '/Home page/19.jpg' },
+  // { url: '/Home page/.jpg' },
+  // { url: '/Home page/19.jpg' },
   { url: '/Home page/21.jpg' },
-  { url: '/Home page/15.jpg' },
-  { url: '/Home page/35.jpg' },
+  // { url: '/Home page/15.jpg' },
+  // { url: '/Home page/35.jpg' },
 ]; 
 
 // HOWITWORKS SECTION
