@@ -71,13 +71,13 @@ const Hero = ({ autoSlide= false }) => {
             ))}
           </div>
         </div>
-        <div className="absolute w-[759px] h-[294px] gap-2 -translate-x-0 translate-y-[5%] xs:translate-y-[15%] sm:translate-y-[35%] md:translate-y-[45%] left-[6%] lg:left-[110px] md:left-[6%]">
+        <div className="2xl:max-container absolute w-[759px] h-[294px] gap-2 -translate-x-0 translate-y-[5%] xs:translate-y-[15%] sm:translate-y-[35%] md:translate-y-[45%] lg:translate-y-[55%] xl:translate-y-[75%] left-[6%] lg:left-[110px] xl:left-[7%]">
           <h1 className='text-white bold-14 xs:bold-18 md:bold-20 lg:bold-30'>Connecting You to Global Opportunities</h1>
-          <h1 className="w-[354px] sm:w-[435px] md:w-[487px] lg:w-[642px] xl:w-[737px] text-white bold-36 xs:bold-40 sm:bold-52 md:bold-60 lg:bold-75">
-            Find your <span className="text-blue-300 font-black font-serif">dream</span> job abroad
+          <h1 className="w-[354px] sm:w-[455px] md:w-[507px] lg:w-[652px] xl:w-[737px] text-white bold-36 xs:bold-40 sm:bold-52 md:bold-60 lg:bold-75">
+            Find your <span className="text-blue-300 font-black font-serif">perfect</span> job overseas
           </h1>
           <div className="max-w-5xl md:pt-5 lg:mr-auto pr-5 md:pr-10 xl:pr-0 w-full">
-            <p className="regular-10 sm:regular-14 mt-1 sm:mt-6 text-white/80 w-[326px] xs:w-[386px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:w-[916px]">
+            <p className="regular-10 sm:regular-14 mt-1 sm:mt-6 text-white/75 w-[326px] xs:w-[386px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:w-[916px]">
               ENAT Foreign Employment Agent PLC is synonymous with reliability, professionalism, and efficiency. We prioritize the welfare of our candidates, 
               ensuring their safety and well-being throughout the entire recruitment process. With our extensive network, expertise, and unwavering commitment,
               we strive to deliver optimal results and create a positive impact on both our clients and candidates.

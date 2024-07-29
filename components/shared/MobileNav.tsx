@@ -32,7 +32,7 @@ const MobileNav = () => {
             src='/enatlogo.svg'
             alt='logo'
             height={27}
-            width={124}
+            width={184}
           />
           <Separator className="border border-gray-100 mb-6" />
           <NavItems />

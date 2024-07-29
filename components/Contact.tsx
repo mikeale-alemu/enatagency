@@ -137,7 +137,7 @@ const Contact = () => {
           </main>
         </section>
       </div>
-      <div className="max-container">
+      <div className="">
         <GoogleMapLocation />
       </div>
     </section>

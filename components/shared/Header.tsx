@@ -19,7 +19,7 @@ const Header = () => {
             src='/enatlogo.svg'
             alt='logo'
             height={29}
-            width={124}
+            width={184}
             className=""
           />
         </Link>
