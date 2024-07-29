@@ -15,7 +15,9 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Achievement />
-      <Contact />
+      <div className="py-2 lg:py-4 xl:py-8">
+        <Contact />
+      </div>
     </div>
   );
 }

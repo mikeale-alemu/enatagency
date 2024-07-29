@@ -1,10 +1,16 @@
+'use client';
+
 import Image from "next/image"
 import Link from "next/link"
 import NavItems from "./NavItems"
 import MobileNav from "./MobileNav"
 import Button from "../Button"
+import { usePathname } from "next/navigation"
 
 const Header = () => {
+
+  const pathname = usePathname();
+
   return (
     <main className="max-container py-3">
       <div className="flexBetween padding-container relative z-30">
@@ -29,7 +35,7 @@ const Header = () => {
                 type='button'
                 title='Contact'
                 // icon='/user.svg'
-                variant='btn_blue'
+                variant={`${ pathname === "/contact" && 'bg-black' || 'bg-blue-400'} border-blue-700 px-6 py-2 text-white shadow-lg hover:shadow-blue-400 hover:bg-blue-500 transition ease-in-out duration-300`}
               />
             </Link>
           </div>

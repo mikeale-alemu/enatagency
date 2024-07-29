@@ -11,6 +11,8 @@ import {
 import { Separator } from "@radix-ui/react-separator"
 import Image from "next/image"
 import NavItems from "./NavItems"
+import Link from "next/link"
+import Button from "../Button"
 
 const MobileNav = () => {
   return (
