@@ -23,8 +23,8 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section id='contact' className='2xl:max-container'>
-      <div className="pb-12">
+    <section id='contact' className=''>
+      <div className="pb-12 2xl:max-container">
         {/* py-12 lg:py-16 xl:py-20 */}
         <section className="py-10 lg:py-12">
           <main className="px-1 xs:px-2 sm:px-6 md:px-10">
@@ -47,30 +47,30 @@ const Contact = () => {
                 </div>
                 <div className="space-y-4">
                   <div className="grid grid-cols-2 grid-rows-2 sm:gap-6 sm:grid-cols-2">
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
-                      <GrMapLocation className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-3 sm:gap-4">
+                      <GrMapLocation className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg">LOCATION</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">
-                          Hayahulet st. Addis Ababa, Ethiopia
+                          22 MAZORIA, Addis Ababa
                         </p>
                       </div>  
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4 lg:gap-2 xl:gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-3 sm:gap-4">
                       <AiTwotoneMail className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg">EMAIL</span>
                         <p className="text-[8px] xs:text-[10px]  text-gray-700 ">info@enatemploymentagency.com</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-3 sm:gap-4">
                       <FiPhoneCall className="text-4xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg">PHONE</span>
                         <p className="regular-10 xs:text-xs sm:text-[13px] text-gray-700 leading-loose">+251-983-074-715</p>
                       </div>
                     </div>
-                    <div className="space-y-2 flex flex-row items-center justify-start gap-1 sm:gap-4">
+                    <div className="space-y-2 flex flex-row items-center justify-start gap-3 sm:gap-4">
                       <GiAlarmClock className="text-5xl transform transition duration-300 ease-in-out text-blue-600" />
                       <div className="space-y-1">
                         <span className="block font-medium text-black text-lg">OPEN HOUR</span>
