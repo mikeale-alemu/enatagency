@@ -64,10 +64,10 @@ const Hero = ({ autoSlide= false }) => {
         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-1 md:left-6 sm:left-3 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft onClick={privSlide} size={30} />
         </div> */}
-        <div className="absolute bottom-3 xs:bottom-7 right-0 left-0">
+        <div className="absolute bottom-3 xs:bottom-7 sm:bottom-9 md:bottom-12 lg:bottom-16 right-0 left-0">
           <div className="flex flex-row items-center justify-center gap-3">
             {sliderHome.map((_, i) => (
-              <div key={i} className={`{transition-all w-2 h-2 bg-white rounded-full ${ currentIndex === i ? 'p-1' : "bg-opacity-50" }`} />
+              <div key={i} className={`{transition-all w-2 h-2 bg-gray-500 rounded-full ${ currentIndex === i ? 'p-1' : "bg-opacity-50" }`} />
             ))}
           </div>
         </div>
