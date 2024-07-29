@@ -47,9 +47,9 @@ const page = () => {
         </main>
         <Contact />
       </div>
-      <div className="max-container">
+      {/* <div className="max-container">
         <GoogleMapLocation />
-      </div>
+      </div> */}
     </section>
   )
 }
