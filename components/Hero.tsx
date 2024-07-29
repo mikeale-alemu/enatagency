@@ -41,7 +41,7 @@ const Hero = ({ autoSlide= false }) => {
             className="w-screen min-h-screen mix-blend-overlay bg-cover bg-center"
           />from-black/70 to-black/40
         </div> */}
-        <div className="w-full bg-gradient-to-t from-black/70 to-black/40">
+        <div className="w-full bg-gradient-to-t from-white to-black/70">
           {/* <img
             src={`${sliderHome[currentIndex].url}`}
             alt='home image'
