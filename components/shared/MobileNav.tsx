@@ -27,10 +27,10 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent className="flex flex-col gap-6 bg-white lg:hidden ">
           <Image
-            src='/hilink-logo.svg'
+            src='/enatlogo.svg'
             alt='logo'
             height={27}
-            width={42}
+            width={124}
           />
           <Separator className="border border-gray-100 mb-6" />
           <NavItems />

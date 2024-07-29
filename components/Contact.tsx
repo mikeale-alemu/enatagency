@@ -26,7 +26,7 @@ const Contact = () => {
     <section id='contact' className='2xl:max-container'>
       <div className="pb-12">
         <section className="py-12 lg:py-16 xl:py-20">
-          <main className="wrapper px-1 xs:px-2 sm:px-6 md:px-10">
+          <main className="px-1 xs:px-2 sm:px-6 md:px-10">
             <div className="grid items-start gap-12 lg:grid-cols-2 xl:gap-20">
               <motion.div 
               ref={ref}

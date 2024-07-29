@@ -44,7 +44,7 @@ const page = () => {
             </div>
           </div> 
         </main>
-        <section className="py-12 lg:py-16 xl:py-20">
+        <section className="py-10 lg:py-12">
           <main className="wrapper px-6 md:px-10">
             <div className="grid items-start gap-12 lg:grid-cols-2 xl:gap-20">
               <div className="space-y-4">
