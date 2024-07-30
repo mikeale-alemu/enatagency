@@ -23,7 +23,7 @@ const HowItWorks = () => {
       animate={ isInView ? { x: 0, opacity: 1 } : {}}
       transition={{ delay:0.5, x: { type: 'spring', stiffness:70 } }}
       
-      className="max-container xl:w-[862px] padding-container my-16 flex flex-col gap-10">
+      className="max-container xl:w-[932px] padding-container my-16 flex flex-col gap-10">
         <h1 className='regular-34 lg:bold-40 text-center'>How it works</h1>
         <p className='text-gray-800 text-[16px] font-normal leading-5 text-center'>
           Ethiopian Housemaids to Gulf countries: We have successfully supplied Ethiopian

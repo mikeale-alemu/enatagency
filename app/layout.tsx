@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Enat Agency",
+  title: "Enat Employment Agency",
   description: "Travel Agency Website",
 };
 

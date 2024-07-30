@@ -10,7 +10,7 @@ type AchievementProp = {
 const AchievementItem = ({ icon, numbers, title }: AchievementProp) => {
   return (
     <div className=""> {/* bg-gradient-to-t from-black/20 to-black/20 */}
-      <div className="relative flex flex-col items-center gap-3 bg-black/10 bg-opacity-30 backdrop-blur-md shadow-md w-[253px] h-[291px] xl:rounded-5xl xl:px-16 overflow-hidden rounded-3xl">
+      <div className="relative flex flex-col items-center gap-3 bg-gray-400/40 backdrop-blur-3xl shadow-md w-[253px] h-[291px] xl:rounded-5xl xl:px-16 overflow-hidden rounded-3xl">
         <div className="mt-11">
           <Image
             src={icon}
@@ -30,7 +30,7 @@ const AchievementItem = ({ icon, numbers, title }: AchievementProp) => {
 const Achievement = () => {
   return (
     <section className="realtive flexCenter flex-col mb-20">
-      <div className="flexCenter max-container relative w-full bg-gradient-to-t from-blue-700/40 to-blue-700/40 2xl:rounded-5xl">
+      <div className="flexCenter max-container relative w-full bg-gradient-to-t from-black/40 to-black/40 2xl:rounded-5xl">
         <Image 
           src="/photo2.jpg"
           alt="boat"
@@ -44,7 +44,7 @@ const Achievement = () => {
         <p className="bold-30 md:bold-32 lg:bold-32 text-center text-blue-300 w-80 xs:w-96 sm:w-[564px] md:w-[700px] lg:w-[900px]">We work directly for our clients and client's interests first.</p>
       </div>
       {/* grid-cols-2 lg:grid-cols-4 */}
-      <div className="2xl:max-container flex flex-row -mt-28 gap-3 hide-scrollbar pl-[6%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
+      <div className="2xl:max-container flex flex-row -mt-28 lg:-mt-36 gap-3 hide-scrollbar pl-[6%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
         {Achievements.map((Item) => (
           <AchievementItem key={Item.title} {...Item} />
         ))}
