@@ -10,24 +10,24 @@ import { useRef } from 'react';
     const isInView = useInView(ref, { once: true });
 
     return (
-      <section id='services' className='relative 2xl:max-container'>
-        <div className="absolute -top-16 w-full">
+      <section id='services' className='2xl:max-container relative 2xl:center-items'>
+        <div className="absolute -top-16 w-full 2xl:left-28">
           <Image
             src='/96.png'
             alt='About Image'
-            width={599}
+            width={699}
             height={1045}
             className='object-cover object-center opacity-95 bg-cover'
           />
         </div>
-        <main className='flex flex-col py-14 gap-10 xl:gap-1 pb-32 overflow-hidden lg:py-28 xl:flex-row z-10'>
+        <main className='flex flex-col py-14 gap-10 xl:gap-1 pb-32 overflow-hidden lg:py-28 xl:flex-row z-10 2xl:px-28'>
           <motion.div
           ref={ref}
           initial={{ x: -100, opacity: 0 }}
           animate={ isInView ? { x: 0, opacity: 1 } : {}}
           transition={{ delay:0.2, x: { type: 'spring', stiffness:60 } }}
 
-          className="relative flex flex-col gap-7 items-start w-[598px] h-[359] -translate-x-0 -translate-y-3 left-[5%] lg:left-[140px] md:left-[7%]">
+          className="relative flex flex-col gap-7 items-start w-[598px] h-[359] -translate-x-0 -translate-y-3 left-[5%] md:left-[7%] lg:left-[140px] 2xl:left-0">
             <h1 className='regular-40'>Services</h1>
             <div className="flex flex-col w-[598px] gap-4">
               <p className='regular-18 w-[328px] xs:w-[387px] text-gray-800 sm:w-[597px] md:w-[615px]'>
@@ -53,12 +53,12 @@ import { useRef } from 'react';
           animate={ isInView ? { x: 0, opacity: 1 } : {}}
           transition={{ delay:0.2, x: { type: 'spring', stiffness:60 } }}
           
-          className="relative flex flex-col w-[611px] z-20 right-0 left-0 sm:left-10 md:left-20 lg:left-44 xl:left-[180px]">
+          className="relative flex flex-col w-full h-full z-20 right-0 left-0 sm:left-10 md:left-20 lg:left-44 xl:left-[180px] 2xl:left-20">
             <Image
               src='/51.jpeg'
               alt='camp'
-              width={611}
-              height={461}
+              width={651}
+              height={521}
               className=''
             />
           </motion.div>

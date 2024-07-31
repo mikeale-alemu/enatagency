@@ -46,6 +46,12 @@ body {
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
   }
   
+  .center-items{
+    @apply flex justify-center items-center
+  }
+  .center-start{
+    @apply flex justify-start items-start
+  }
   .max-container {
     @apply mx-auto max-w-[1680px];
   }
@@ -125,6 +131,9 @@ body {
     @apply text-[14px] font-[600];
   }
 
+  .bold-99 {
+    @apply text-[162px] font-[900] leading-[120%];
+  }
   .bold-88 {
     @apply text-[88px] font-[700] leading-[120%];
   }

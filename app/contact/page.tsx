@@ -17,9 +17,9 @@ import Contact from '@/components/Contact'
 
 const page = () => {
   return (
-    <section id='contact' className='2xl:max-container mb-0 md:mb-2 lg:mb-4'>
+    <section id='contact' className='mb-0 md:mb-2 lg:mb-4'>
       <div className="pb-12">
-        <main className="relative">
+        <main className="2xl:max-container relative">
           <div className="w-full bg-gradient-to-t from-white to-black/30">
             <Image
               src='/photo3.jpg'

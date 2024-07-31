@@ -41,7 +41,7 @@ const Features = () => {
   return (
     <section className="2xl:max-container relative flex flex-col">
       <h2 className="regular-40 mb-14 text-center">Featured Destinations</h2>
-      <div className="hide-scrollbar px-10 flex h-[408px] w-full items-start justify-start gap-5 overflow-x-auto overflow-y-hidden">
+      <div className="hide-scrollbar 2xl:center-items px-10 flex h-[408px] w-full items-start justify-start gap-5 overflow-x-auto overflow-y-hidden">
         {FEATURES.map((items) => {
           return (
             <CampSite 

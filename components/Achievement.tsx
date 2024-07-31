@@ -44,7 +44,7 @@ const Achievement = () => {
         <p className="bold-30 md:bold-32 lg:bold-32 text-center text-blue-300 w-80 xs:w-96 sm:w-[564px] md:w-[700px] lg:w-[900px]">We work directly for our clients and client's interests first.</p>
       </div>
       {/* grid-cols-2 lg:grid-cols-4 */}
-      <div className="2xl:max-container flex flex-row -mt-28 lg:-mt-36 gap-3 hide-scrollbar pl-[6%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
+      <div className="2xl:max-container xl:center-items flex flex-row -mt-28 lg:-mt-36 gap-3 hide-scrollbar pl-[6%] xl:pl-[0%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
         {Achievements.map((Item) => (
           <AchievementItem key={Item.title} {...Item} />
         ))}

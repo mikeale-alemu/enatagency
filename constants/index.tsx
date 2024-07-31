@@ -121,7 +121,7 @@ export const FOOTER_LINK1 = [
     links: [
       { flag: '/United-Arab-Emirates.svg' , value: 'United Arab Emirates (UAE)' },
       { flag: '/Saudi-Arabia.svg' , value: 'Saudi Arabia'},
-      { flag: '/Qatar.svg' , value: 'Qatar' },
+      { flag: '/qatar.svg' , value: 'Qatar' },
       { flag: '/Kuwait.svg' , value: 'Kuwait' },
       { flag: '/Jordan.svg' , value: 'Jordan' },
     ],

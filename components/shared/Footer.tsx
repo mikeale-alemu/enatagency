@@ -6,20 +6,20 @@ const Footer = () => {
   return (
     <footer className="2xl:max-container">
       <section className='relative flex flex-1 flex-col'>
-        <div className="flex bg-gradient-to-b from-white/50 to-white/20">
+        <div className="flex">
           <Image
             src='/96.png'
             alt="logo"
             width={340}
             height={200}
-            className='w-[50%] h-[670px] opacity-90 translate-y-10 mix-blend-overlay bg-cover bg-center'
+            className='w-[50%] h-[670px] translate-y-10 mix-blend-overlay bg-cover bg-center'
           />
           <Image
             src='/9267.png'
             alt="logo"
             width={340}
             height={200}
-            className='w-[50%] h-[670px] opacity-90 translate-y-10 mix-blend-overlay bg-cover bg-center'
+            className='w-[50%] h-[670px] translate-y-10 mix-blend-overlay bg-cover bg-center'
           />
         </div>
         <main className='absolute translate-y-72 overflow-hidden padding-container max-container flex w-full flex-col gap-14'>
