@@ -77,7 +77,7 @@ const Hero = ({ autoSlide= false }) => {
             Find your <span className="text-blue-300 font-black font-serif">perfect</span> job overseas
           </h1>
           <div className="max-w-5xl md:pt-5 lg:mr-auto pr-5 md:pr-10 xl:pr-0 w-full">
-            <p className="regular-10 sm:regular-14 lg:regular-15 2xl:regular-18 4xl:regular-30 mt-1 sm:mt-6 text-white w-[326px] xs:w-[386px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:w-[916px] 2xl:w-[960px] 4xl:w-[1760px]">
+            <p className="regular-8 xs:regular-10 sm:regular-14 lg:regular-15 2xl:regular-18 4xl:regular-30 mt-1 sm:mt-6 text-white w-[326px] xs:w-[386px] sm:w-[579px] md:w-[687px] lg:w-[769px] xl:w-[916px] 2xl:w-[960px] 4xl:w-[1760px]">
               ENAT Foreign Employment Agent PLC is synonymous with reliability, professionalism, and efficiency. We prioritize the welfare of our candidates, 
               ensuring their safety and well-being throughout the entire recruitment process. With our extensive network, expertise, and unwavering commitment,
               we strive to deliver optimal results and create a positive impact on both our clients and candidates.

@@ -101,6 +101,33 @@ export const Achievements = [
   },
 ]
 
+export const FAQItems = [
+  {
+    title: "What is Feedback ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+  {
+    title: "Why should your organization use Feedback Application ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+  {
+    title: "Is there a Free Trial Available ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+  {
+    title: "How to Contact us ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+  {
+    title: "Do i Need to Pay for VISA ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+  {
+    title: "Is it One Time Payment ?",
+    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+  },
+]
+
 // FOOTER SECTION
 export const FOOTER_LINK = [
   {

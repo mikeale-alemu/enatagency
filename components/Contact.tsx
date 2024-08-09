@@ -28,7 +28,7 @@ const Contact = () => {
         {/* py-12 lg:py-16 xl:py-20 */}
         <section className="py-10 lg:py-12">
           <main className="px-1 xs:px-2 sm:px-6 md:px-10">
-            <div className="grid items-start gap-12 lg:grid-cols-2 xl:gap-20">
+            <div className="grid items-start gap-12 xl:grid-cols-2 xl:gap-20">
               <motion.div 
               ref={ref}
               initial={{ x: -100, opacity: 0 }}
@@ -130,7 +130,7 @@ const Contact = () => {
                   <Textarea className="min-h-[150px] resize-y bg-gray-100 border border-gray-300 text-black" id="message" placeholder="Your Message" />
                 </div>
                 <div className="w-full pt-4">
-                  <Button className="px-12 py-6 text-white bg-blue-600 hover:bg-blue-800">Submit Message</Button>
+                  <Button className="px-12 py-6 text-white bg-[#007AFF] hover:bg-blue-600">Submit Message</Button>
                 </div>
               </motion.div>
             </div>

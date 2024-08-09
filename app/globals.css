@@ -77,6 +77,9 @@ body {
   }
 
   /* FONTS */
+  .textXl {
+    @apply font-bold text-xl;
+  }
   .regular-75 {
     @apply text-[75px] font-[400] leading-[120%];
   }
@@ -92,7 +95,7 @@ body {
   }
 
   .regular-30 {
-    @apply text-[30px] font-[400] leading-[45px];
+    @apply text-[30px] font-[500] leading-[45px];
   }
 
   .regular-24 {
@@ -105,6 +108,9 @@ body {
 
   .regular-18 {
     @apply text-[18px] font-[400];
+  }
+  .regular-17 {
+    @apply font-medium text-[16px] leading-6;
   }
 
   .regular-16 {
@@ -124,7 +130,7 @@ body {
     @apply text-[10px] font-thin tracking-wide;
   }
   .regular-8 {
-    @apply text-[8px] font-thin tracking-wide leading-5;
+    @apply text-[8px] font-thin tracking-wide;
   }
 
   .medium-14 {
@@ -165,6 +171,9 @@ body {
   .bold-30 {
     @apply text-[30px] font-normal leading-[45px];
   }
+  .bold-25 {
+    @apply text-[25px] font-semibold leading-[38px];
+  }
 
   .bold-20 {
     @apply text-[20px] font-[600] leading-[30px];
@@ -176,6 +185,9 @@ body {
 
   .bold-16 {
     @apply text-[16px] font-[700];
+  }
+  .bold-15 {
+    @apply text-[13px] font-[700];
   }
   .bold-14 {
     @apply text-[15px] font-[400];

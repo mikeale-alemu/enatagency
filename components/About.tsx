@@ -45,7 +45,7 @@ const About = () => {
 
         className="relative flex w-[598px] order-1 xl:order-2 gap-6 items-start -translate-x-0 -translate-y-3 left-[4%] md:left-[6%] lg:left-[56px]">
           <div className="flex flex-col">
-            <h1 className='regular-40'>About Us</h1>
+            <h1 className='bold-25 xl:bold-30 sm:regular-40'>About Us</h1>
             <div className="flex flex-col w-[598px] gap-4">
               <p className='regular-18 w-[328px] xs:w-[387px] sm:w-[597px] text-gray-800'>
                 ENAT Foreign Employment Agent PLC is a leading overseas recruitment agency based
