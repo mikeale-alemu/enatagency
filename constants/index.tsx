@@ -102,6 +102,8 @@ export const Achievements = [
   },
 ]
 
+// FREQUENTLY ASKED QUESTIONS SECTION 
+
 export const FAQItems = [
   {
     title: "What is Feedback ?",
@@ -117,7 +119,7 @@ export const FAQItems = [
   },
   {
     title: "How to Contact us ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    content: "Visit Enate Employment Agency at Hayahulet, Mazoria, Yeab Building, 4th Floor, Office No. 401. Call us at +251-983-074-715 or email us at info@enatemploymentagency.com."
   },
   {
     title: "Do i Need to Pay for VISA ?",
