@@ -18,10 +18,10 @@ export default function Home() {
       <HowItWorks />
       <Achievement />
       <FAQ />
+      <Supporter />
       <div className="py-2 lg:py-4 xl:py-8">
         <Contact />
       </div>
-      <Supporter />
     </div>
   );
 }

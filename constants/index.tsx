@@ -4,7 +4,8 @@ export const NAV_LINKS = [
     { href: '#about', key: 'about', label: 'About ' },
     { href: '#services', key: 'services', label: 'Services' },
     { href: '#howitwork', key: 'how_hilink_work', label: 'How Enat Work?' },
-    // { href: '#contact', key: 'contact_us', label: 'Contact Us' },
+    { href: '#faq', key: 'faq', label: 'FAQ' },
+    { href: '#contact', key: 'contact', label: 'Contact' },
   ];
 
 
@@ -134,10 +135,11 @@ export const FOOTER_LINK = [
     title: 'Learn More',
     links: [
       { link: '/', value: 'Home' },
-      { link: '/', value: 'About Enat' },
-      { link: '/', value: 'Services' },
-      // { link: '/', value: 'Privacy Policy' },
-      { link: '/', value: 'Contact Us' },
+      { link: '#about', value: 'About Enat' },
+      { link: '#services', value: 'Services' },
+      { link: '#howitwork', value: 'How Enat Work?' },
+      { link: '#faq', value: 'Frequently Asked Questions' },
+      { link: '#contact', value: 'Contact Us' },
     ],
   }
 ];

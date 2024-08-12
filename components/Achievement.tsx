@@ -10,7 +10,7 @@ type AchievementProp = {
 const AchievementItem = ({ icon, numbers, title }: AchievementProp) => {
   return (
     <div className=""> {/* bg-gradient-to-t from-black/20 to-black/20 */}
-      <div className="relative flex flex-col items-center gap-3 bg-gray-400/40 backdrop-blur-3xl shadow-md w-[253px] h-[291px] xl:rounded-5xl xl:px-16 overflow-hidden rounded-3xl">
+      <div className="relative flex flex-col items-center gap-3 bg-[#007AFF26] border-[2px] border-white/40 backdrop-blur-3xl backdrop-brightness-200 shadow-md w-[213px] h-[261px] sl:w-[253px] sl:h-[291px] xl:rounded-5xl xl:px-16 overflow-hidden rounded-3xl">
         <div className="mt-11">
           <Image
             src={icon}
@@ -20,8 +20,8 @@ const AchievementItem = ({ icon, numbers, title }: AchievementProp) => {
             className=''
           />
         </div>
-        <h1 className="text-white bold-40">+{numbers}</h1>
-        <p className='bold-20 text-center text-white'>{title}</p>
+        <h1 className="text-white bold-36 sl:bold-40">+{numbers}</h1>
+        <p className='bold-16 sl:bold-20 text-center text-white'>{title}</p>
       </div>
     </div>
   )
@@ -44,7 +44,7 @@ const Achievement = () => {
         <p className="bold-30 md:bold-32 lg:bold-32 text-center text-blue-300 w-80 xs:w-96 sm:w-[564px] md:w-[700px] lg:w-[900px]">We work directly for our clients and client's interests first.</p>
       </div>
       {/* grid-cols-2 lg:grid-cols-4 */}
-      <div className="2xl:max-container xl:center-items flex flex-row -mt-28 lg:-mt-36 gap-3 hide-scrollbar pl-[6%] xl:pl-[0%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
+      <div className="2xl:max-container xl:center-items flex flex-row -mt-28 md:-mt-36 lg:-mt-[172px] gap-3 hide-scrollbar pl-[6%] xl:pl-[0%] w-full xs:gap-5 sm:gap-7 md:gap-10 overflow-x-auto overflow-y-hidden">
         {Achievements.map((Item) => (
           <AchievementItem key={Item.title} {...Item} />
         ))}

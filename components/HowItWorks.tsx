@@ -24,7 +24,7 @@ const HowItWorks = () => {
       transition={{ delay:0.5, x: { type: 'spring', stiffness:70 } }}
       
       className="max-container xl:w-[932px] padding-container my-16 flex flex-col gap-10">
-        <h1 className='bold-25 xl:bold-30 sm:bold-40 text-center'>How it works</h1>
+        <h1 className='bold-25 xs:bold-30 sm:bold-40 text-center'>How it works</h1>
         <p className='text-gray-800 text-[16px] font-normal leading-5 text-center'>
           Ethiopian Housemaids to Gulf countries: We have successfully supplied Ethiopian
           housemaids to clients in Saudi Arabia, Qatar, UAE, Kuwait, and Jordan ensuring a reliable and

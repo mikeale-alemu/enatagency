@@ -18,7 +18,7 @@ const MobileNav = () => {
   return (
     <nav>
       <Sheet>
-        <SheetTrigger className="align-middle lg:hidden">
+        <SheetTrigger className="align-middle xl:hidden">
           <Image
             src='/menu.svg'
             alt='menu'
@@ -27,7 +27,7 @@ const MobileNav = () => {
             className="cursor-pointer"
           />
         </SheetTrigger>
-        <SheetContent className="flex flex-col gap-6 bg-white lg:hidden ">
+        <SheetContent className="flex flex-col gap-6 bg-white xl:hidden ">
           <Image
             src='/enatlogo.svg'
             alt='logo'

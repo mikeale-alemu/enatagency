@@ -103,36 +103,42 @@ const Contact = () => {
                   </div>
                 </div>
               </motion.div>
-              <motion.div 
+              <motion.form
+              action="https://formsubmit.co/mickeyalemu108@gmail.com"
+              method="POST"
               ref={ref}
               initial={{ x: 100, opacity: 0 }}
               animate={ isInView ? { x: 0, opacity: 1 } : {}}
-              transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
+              transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }}
               
               className="space-y-4">
                 <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl text-black">YOUR DETAILS</h1>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="space-y-2">
                     <Label htmlFor="first-name" className="text-black">First name*</Label>
-                    <Input id="first-name" placeholder="Your Name" className="bg-gray-100 border border-gray-300 text-black" />
+                    <Input id="first-name" type="text" placeholder="Your Name" className="bg-gray-100 border border-gray-300 text-black" required />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email-address" className="text-black">Email Address*</Label>
-                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-100 border border-gray-300 text-black" />
+                    <Input id="eamil-address" placeholder="email@yourmail.com" type="email" className="bg-gray-100 border border-gray-300 text-black" required />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="subject" className="text-black">Subject*</Label>
-                  <Input id="subject" placeholder="Subject" className="bg-gray-100 border border-gray-300 text-black" />
+                  <Input id="subject" type="text" placeholder="Subject" className="bg-gray-100 border border-gray-300 text-black" required />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message" className="text-black">Comments/Questions*</Label>
-                  <Textarea className="min-h-[150px] resize-y bg-gray-100 border border-gray-300 text-black" id="message" placeholder="Your Message" />
+                  <Textarea className="min-h-[150px] resize-y bg-gray-100 border border-gray-300 text-black" id="message" placeholder="Your Message" required />
                 </div>
                 <div className="w-full pt-4">
-                  <Button className="px-12 py-6 text-white bg-[#007AFF] hover:bg-blue-600">Submit Message</Button>
+                  <Button 
+                    type="submit"
+                    className="px-12 py-6 text-white bg-[#007AFF] hover:bg-blue-600" 
+                  >
+                    Submit Message</Button>
                 </div>
-              </motion.div>
+              </motion.form>
             </div>
           </main>
         </section>

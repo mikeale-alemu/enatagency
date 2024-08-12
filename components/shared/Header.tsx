@@ -23,19 +23,19 @@ const Header = () => {
             className=""
           />
         </Link>
-        <nav className="hidden h-full lg:flex">
+        <nav className="hidden h-full xl:flex">
           <NavItems />
         </nav>
-          <div className="translate-x-16 hidden h-full lg:flex">
+          <div className="translate-x-16 hidden h-full xl:flex">
             <Link
-              href='/contact'
+              href='https://wa.me/251983074715'
               className="hover:scale-105 transition ease-in-out duration-300"
             >
               <Button
                 type='button'
-                title='Contact'
-                // icon='/user.svg'
-                variant={`${ pathname === "/contact" && 'bg-black' || 'bg-blue-400'} border-blue-700 px-6 py-2 text-white shadow-lg hover:shadow-blue-400 hover:bg-blue-500 transition ease-in-out duration-300`}
+                title='Chat with us'
+                icon='/whatsapp.svg'
+                variant={`${ pathname === "#contact" && 'bg-black' || 'bg-blue-400'} cursor-pointer border-blue-700 px-6 py-2 text-white shadow-lg hover:shadow-blue-400 hover:bg-blue-500 transition ease-in-out duration-300`}
               />
             </Link>
           </div>
@@ -53,7 +53,7 @@ const Header = () => {
               />
             </Link>
           </div> */}
-          <div className="lg:hidden">
+          <div className="xl:hidden">
             <MobileNav />
           </div>
         </div>
