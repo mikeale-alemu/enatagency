@@ -107,15 +107,15 @@ export const Achievements = [
 export const FAQItems = [
   {
     title: "What is Feedback ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    content: "Feedback is information provided by clients, candidates, or partners about their experience with Enate Employment Agency. It helps us understand what we're doing well and where we can improve, ensuring we continually enhance our services to better meet your needs"
   },
   {
-    title: "Why should your organization use Feedback Application ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    title: "What Services Does Enate Employment Agency Offer ?",
+    content: "Enate Employment Agency specializes in connecting employers with qualified candidates across various industries. Our services include talent acquisition, workforce solutions, and customized recruitment strategies to meet your organization's unique needs."
   },
   {
     title: "Is there a Free Trial Available ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    content: "Yes, we offer a free trial for our Feedback Application. This allows you to explore its features and benefits before making a commitment. Contact us to get started with your free trial today!"
   },
   {
     title: "How to Contact us ?",
@@ -123,12 +123,16 @@ export const FAQItems = [
   },
   {
     title: "Do i Need to Pay for VISA ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    content: "No, you do not need to pay for a visa through Enate Employment Agency. We assist with visa applications and processes, but any associated fees are typically managed directly with the relevant authorities. For detailed information about visa costs and procedures, please consult the embassy or consulate."
   },
   {
     title: "Is it One Time Payment ?",
-    content: "Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive.Committed to excellence, offering comprehensive solutions that ensure your organization thrives in the competitive."
+    content: "No, our services typically involve ongoing or periodic payments rather than a one-time fee. Depending on the specific services you choose, there may be subscription fees, project-based costs, or other payment structures. For detailed information about our pricing and payment plans, please contact us directly."
   },
+  // {
+  //   title: "How Do I Get Started with Enate Employment Agency ?",
+  //   content: "Getting started is simple! Contact us via phone at +251-983-074-715, email us at info@enatemploymentagency.com, or visit our office at 22 Mazoria, Yeab Building, 4th Floor, Office No. 401. We’ll discuss your requirements and tailor our services to suit your needs."
+  // },
 ]
 
 // FOOTER SECTION

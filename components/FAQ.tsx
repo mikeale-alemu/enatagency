@@ -56,7 +56,7 @@ const FAQ = () => {
             transition={{ delay:0.2, x: { type: 'spring', stiffness:70 } }} 
                 
             className="w-auto sl:w-full flex flex-col gap-2gg sm:gap-[25px] flexCenter">
-            <div className="sl:p-[10px] flex flex-col gap-[10px] -translate-x-[0px]  md:-translate-x-[70px]">
+            <div className="sl:p-[10px] flex flex-col gap-[10px] -translate-x-[0px]  md:-translate-x-[70px] lg:-translate-x-[0px] 2xl:-translate-x-[70px]">
               <h1 className="bold-20 sl:bold-25">General FAQs</h1>
               <p className='sl:w-[549px] sl:h-12 regular-10 xs:regular-14 sl:regular-15 sm:regular-17 text-black/70'>Here you'll find the answers most valued by our partners, along with access to step-by-step instructions and support</p>
             </div>                
