@@ -28,7 +28,7 @@ import { useRef } from 'react';
           transition={{ delay:0.2, x: { type: 'spring', stiffness:60 } }}
 
           className="relative flex flex-col gap-7 items-start w-[598px] h-[359] -translate-x-0 -translate-y-3 left-[5%] md:left-[7%] lg:left-[140px] 2xl:left-0">
-            <h1 className='bold-25 xs:bold-30 sm:regular-40'>Services</h1>
+            <h1 className='bold-26 xs:bold-31 sm:regular-40'>Services</h1>
             <div className="flex flex-col w-[598px] gap-4">
               <p className='regular-18 w-[328px] xs:w-[387px] text-gray-800 sm:w-[597px] md:w-[615px]'>
                 Overseas Job Placement: We specialize in sourcing and connecting individuals with

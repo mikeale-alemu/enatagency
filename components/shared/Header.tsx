@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect, useState } from "react";
 import Image from "next/image"
 import Link from "next/link"
 import NavItems from "./NavItems"
@@ -11,8 +12,25 @@ const Header = () => {
 
   const pathname = usePathname();
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <main className="max-container py-3">
+    <main className={`fixed py-3 z-50 w-full ${isScrolled ? 'bg-white shadow-md border-b-[1px] border-b-blue-300' : 'bg-transparent'}`}>
       <div className="flexBetween padding-container relative z-30">
         <Link href="/">
           <Image

@@ -23,7 +23,7 @@ const Hero = ({ autoSlide= false }) => {
 
   useEffect(() => {
     if (autoSlide) {
-    const slideInterval = setInterval(nextSlide, 9000)
+    const slideInterval = setInterval(nextSlide, 11000)
     return () => clearInterval(slideInterval);
     }
   }, [autoSlide, currentIndex]);
@@ -71,9 +71,9 @@ const Hero = ({ autoSlide= false }) => {
             ))}
           </div>
         </div>
-        <div className=" absolute w-[759px] h-[294px] gap-2 -translate-x-0 translate-y-[5%] xs:translate-y-[15%] sm:translate-y-[35%] md:translate-y-[45%] lg:translate-y-[50%] left-[6%] lg:left-[110px] xl:left-[7%]">
+        <div className=" absolute top- w-[759px] h-[294px] gap-2 -translate-x-0 translate-y-[15%] sm:translate-y-[35%] md:translate-y-[45%] lg:translate-y-[50%] left-[6%] lg:left-[110px] xl:left-[7%]">
           <h1 className='text-white bold-14 xs:bold-18 md:bold-20 lg:bold-30 2xl:bold-36 4xl:bold-52 4xl:w-[1100px]'>Connecting You to Global Opportunities</h1>
-          <h1 className="w-[354px] sm:w-[455px] md:w-[507px] lg:w-[652px] xl:w-[737px] 2xl:w-[840px] 4xl:w-[1500px] text-white bold-36 xs:bold-40 sm:bold-52 md:bold-60 lg:bold-75 2xl:bold-88 4xl:bold-99">
+          <h1 className="w-[264px] sm:w-[455px] md:w-[507px] lg:w-[652px] xl:w-[737px] 2xl:w-[840px] 4xl:w-[1500px] text-white bold-30 xs:bold-40 sm:bold-52 md:bold-60 lg:bold-75 2xl:bold-88 4xl:bold-99">
             Find your <span className="text-blue-300 font-black font-serif">perfect</span> job overseas
           </h1>
           <div className="max-w-5xl md:pt-5 lg:mr-auto pr-5 md:pr-10 xl:pr-0 w-full">

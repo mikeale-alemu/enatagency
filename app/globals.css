@@ -168,8 +168,14 @@ body {
     @apply text-[32px] font-[500] leading-[120%];
   }
 
+  .bold-31 {
+    @apply text-[30px] font-extrabold leading-[45px];
+  }
   .bold-30 {
-    @apply text-[30px] font-normal leading-[45px];
+    @apply text-[30px] font-normal leading-[30px];
+  }
+  .bold-26 {
+    @apply text-[25px] font-extrabold leading-[38px];
   }
   .bold-25 {
     @apply text-[25px] font-semibold leading-[38px];

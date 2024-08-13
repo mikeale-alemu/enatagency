@@ -26,10 +26,10 @@ const CampSite = ({ image, title, description }: CampProps) => {
         <h3 className='text-black regular-16'>{title}</h3>
       </div>
       <div className="absolute min-w-[284px]  translate-y-0 group-hover:-translate-y-[216px] transition-all left-0 w-full bg-black
-        bg-opacity-70 py-7 pb-10 px-6  duration-300 ease-in-out rounded-b-[20px] overflow-hidden">
+        bg-opacity-70 py-7 pb-5 px-6  duration-300 ease-in-out rounded-b-[20px] overflow-hidden">
         <h3 className="regular-16 mb-7 text-white">{title}</h3>
-        <p className="w-[210px] regular-14 mb-10 text-white">{description}</p>
-        <Link href="#" className="absolute right-7 bold-14 text-white">
+        <p className="w-[210px] regular-12 mb-10 text-white">{description}</p>
+        <Link href="#contact" className="absolute right-7 bottom-4 bold-14 text-white">
           More
         </Link>
       </div>
@@ -40,7 +40,7 @@ const CampSite = ({ image, title, description }: CampProps) => {
 const Features = () => {
   return (
     <section className="2xl:max-container relative flex flex-col">
-      <h2 className="bold-25 xs:bold-30 sm:regular-40 mb-14 text-center">Featured Destinations</h2>
+      <h2 className="bold-26 xs:bold-31 sm:regular-40 mb-14 text-center">Featured Destinations</h2>
       <div className="hide-scrollbar 2xl:center-items px-10 flex h-[408px] w-full items-start justify-start gap-5 overflow-x-auto overflow-y-hidden">
         {FEATURES.map((items) => {
           return (

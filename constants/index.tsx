@@ -11,10 +11,10 @@ export const NAV_LINKS = [
 
 // HERO SECTION
 export const sliderHome = [
+  { url: '/Home page/20.jpg' },
   { url: '/Home page/17.jpg' },
-  { url: '/Home page/32.jpg' },
-  // { url: '/Home page/.jpg' },
-  // { url: '/Home page/19.jpg' },
+  // { url: '/Home page/32.jpg' },
+  { url: '/Home page/19.jpg' },
   { url: '/Home page/21.jpg' },
   // { url: '/Home page/15.jpg' },
   // { url: '/Home page/35.jpg' },
@@ -50,31 +50,31 @@ export const FEATURES = [
     id: 1,
     title: 'United Arab Emirates',
     image: '/featured/UnitedArabEmirates.jpg',
-    description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
+    description: 'United Arab Emirates, a federation of seven emirates, has become a leading global business hub.',
   },
   {
     id: 2,
     title: 'Saudi Arabia',
     image: '/featured/SaudiArabia.jpg',
-    description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
+    description: 'Saudi Arabia is diversifying its economy, emerging as a significant global hub for various industries.',
   },
   {
     id: 3,
     title: 'Qatar',
     image: '/featured/Qatar.jpg',
-    description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
+    description: "Qatar's strategic growth has established it as a key destination for global business and development.",
   },
   {
     id: 4,
     title: 'Kuwait',
     image: '/featured/Kuwait.jpg',
-    description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
+    description: "Kuwait’s economic strength is bolstered by its ongoing efforts to diversify beyond its oil industry.",
   },
   {
     id: 5,
     title: 'Jordan',
     image: '/featured/Jordan.jpg',
-    description: 'Comprising seven emirates, the UAE has emerged as a global hub for business',
+    description: 'Jordan’s stability and strategic importance make it a vital location for emerging global industries',
   },
 ];
 
@@ -129,10 +129,7 @@ export const FAQItems = [
     title: "Is it One Time Payment ?",
     content: "No, our services typically involve ongoing or periodic payments rather than a one-time fee. Depending on the specific services you choose, there may be subscription fees, project-based costs, or other payment structures. For detailed information about our pricing and payment plans, please contact us directly."
   },
-  // {
-  //   title: "How Do I Get Started with Enate Employment Agency ?",
-  //   content: "Getting started is simple! Contact us via phone at +251-983-074-715, email us at info@enatemploymentagency.com, or visit our office at 22 Mazoria, Yeab Building, 4th Floor, Office No. 401. We’ll discuss your requirements and tailor our services to suit your needs."
-  // },
+  // {A thriving global hub with modern infrastructure, attracting business and innovation from around the world.
 ]
 
 // FOOTER SECTION

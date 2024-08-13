@@ -27,6 +27,7 @@ const Contact = () => {
       <div className="pb-12 2xl:max-container">
         {/* py-12 lg:py-16 xl:py-20 */}
         <section className="py-10 lg:py-12">
+          <h1 className="flex items-center justify-center bold-26 xs:bold-31 sm:regular-40 mb-14">Contact Us</h1>
           <main className="px-1 xs:px-2 sm:px-6 md:px-10">
             <div className="grid items-start gap-12 xl:grid-cols-2 xl:gap-20">
               <motion.div 
@@ -38,7 +39,7 @@ const Contact = () => {
               className="space-y-4">
                 <div className="space-y-4 mb-12">
                   <div className="flex flex-col space-y-3 mb-8">
-                    <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-black">Get in touch</h1>
+                    <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl text-black">Get in touch</h1>
                     <div className="content-[''] bg-blue-500 h-[3px] w-[30%] left-0 bottom-0 rounded-xl duration-300"></div>
                   </div>
                   <p className="text-gray-800 md:text-xl">

@@ -17,7 +17,7 @@ const FAQ = () => {
   return (
     <section id='faq'>
       <main className="w-full 2xl:max-container">
-        <h2 className="bold-25 xs:bold-30 sm:regular-40 mb-0 sm:mb-14 text-center px-2">Frequently Asked Questions</h2>
+        <h2 className="bold-26 xs:bold-31 sm:regular-40 mb-0 sm:mb-14 text-center px-2">Frequently Asked Questions</h2>
         <div className="grid xl:grid-cols-2 px-2 sm:px-6 md:px-10">
           <motion.div 
             ref={ref}
@@ -40,11 +40,11 @@ const FAQ = () => {
               <div className="gap-5">
                 <h3 className='regular-30 text-center'>Have Questions?</h3>
                 <p className='regular-10 xs:regular-1 sl:regular-14 sm:regular-18 text-center text-black/60'>
-                  Here you'll find the answers most valued by our partners, along with access to step-by-step instructions and suppor
+                  Here you'll find the answers most valued by our partners, along with access to step-by-step instructions and support
                 </p>
               </div>
               <div className="flex flex-row items-center justify-center w-[260px] xs:w-[300px] sl:w-[505px] gap-[10px]">
-                <Input id="subject" placeholder="Enter her" className="sl:w-[331px] h-[35px] sl:h-[40px]  bg-gray-100 border px-4 xs:px-6 sm:px-[25px] py-2 gap-[10px] border-gray-300 text-black rounded-full regular-10 xs:regular-12 sm:regular-14" />
+                <Input id="subject" placeholder="Enter here" className="sl:w-[331px] h-[35px] sl:h-[40px]  bg-gray-100 border px-4 xs:px-6 sm:px-[25px] py-2 gap-[10px] border-gray-300 text-black rounded-full regular-10 xs:regular-12 sm:regular-14" />
                 <Button className="px-6 xs:px-7 sl:px-8 h-[35px] sm:h-[40px] py-2 text-white bg-[#007AFF] hover:bg-blue-600 rounded-full regular-12 sm:regular-14 cursor-pointer">Send</Button>
               </div>
             </div>
